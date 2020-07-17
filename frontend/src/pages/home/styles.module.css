@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.total {
+    display: grid;
+    grid-template-areas: 'header header header'
+                         'frase box box';
+    grid-template-rows: 1fr 2fr;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url('../../itens/1.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.total header {
+    grid-area: header;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    height: 80px;
+    padding-left: 60px;
+}
+
+.total .frase {
+    grid-area: frase;
+    /* text-align: center; */
+    margin-left: 60px;
+
+}
+
+.total .frase h1 {
+    color: #994F00;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.total .frase h1:nth-child(2) {
+    margin-left: 80px;
+}
+
+.total .box {
+    grid-area: box;
+    display: flex;
+    position: relative;
+    background-color: #804200bd;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    top: 40px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.total .box .grupo:nth-child(1) {
+    margin-right: 20px;
+}
+
+.total .box p {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.total .box button {
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+    background-color: #FD8300;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin:0 auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.total .box a {
+    font-weight: 700;
+}
+
+.total .box a button svg {
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}

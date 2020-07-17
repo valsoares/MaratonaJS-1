@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.total {
+    display: grid;
+    grid-template-areas: 'header header'
+                         'frase box'
+                         'footer footer';
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.total header {
+    grid-area: header;
+    position: fixed;
+    background-color: #FD8300;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    height: 80px;
+    width: 100vw;
+    padding-left: 60px;
+}
+
+.total header a {
+    display: inline-flex;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.total header a svg {
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.total .frase {
+    grid-area: frase;
+    margin: 0px auto;
+    margin-top: 250px;
+    border-right: 4px #FD8300 solid;
+    padding-right: 50px;
+
+}
+
+.total .frase h1 {
+    color: #FD8300;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: -2px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form p {
+    color: rgb(65, 65, 65);
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px rgb(187, 187, 187) solid;
+    border-radius: 5px;
+}
+
+form button {
+    cursor: pointer;
+    width: fit-content;
+    background-color: #2ec4b6;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:0 auto;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #2ec4b6d7;
+}
+
+footer {
+    grid-area: footer;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    bottom: 20px;
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2ec4b6;
+}

@@ -1,0 +1,6 @@
+.box {
+    grid-area: box;
+    width: 400px;
+    margin-top: 250px;
+
+}
