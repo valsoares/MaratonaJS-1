@@ -11,6 +11,33 @@
 > Outras tecnologias utilizadas podem ser visualizadas nos arquivos 'package.json'
 
 ## :camera_flash: Capturas de tela.
+### Página Inicial
+> A partir da página inicial é possível acessar uma conta ou cadastrar uma conta.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/inicio.png" alt="home" width="700">
+
+### Página de Acesso
+> A partir da página de acesso é possível entrar na aplicação através de uma conta.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/login.png" alt="home" width="700">
+
+### Página de Cadastro
+> A partir da página de cadastro é possível criar uma conta.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/singup.png" alt="home" width="700">
+
+### Página dos Links
+> A partir da página dos links é possível visualizar os links cadastrados por uma conta.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/lista.png" alt="home" width="700">
+
+### Página de Criação de Link
+> A partir da página de criação de link é possível criar novos links.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/criarlink.png" alt="home" width="700">
+
+### Página de Edição de Link
+> A partir da página de edição de link é possível editar links que já foram criados anteriormente.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/editarlink.png" alt="home" width="700">
+
+### Página de Exclusão de Link
+> A partir da página de exclusão de link é possível deletar links que já foram criados anteriormente.
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/deletarlink.png" alt="home" width="700">
 
 ## :scroll: Créditos
 
