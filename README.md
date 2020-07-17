@@ -17,27 +17,27 @@
 
 ### Página de Acesso
 > A partir da página de acesso é possível entrar na aplicação através de uma conta.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/login.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/login.png" alt="signin" width="700">
 
 ### Página de Cadastro
 > A partir da página de cadastro é possível criar uma conta.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/singup.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/singup.png" alt="signup" width="700">
 
 ### Página dos Links
 > A partir da página dos links é possível visualizar os links cadastrados por uma conta.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/lista.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/lista.png" alt="list" width="700">
 
 ### Página de Criação de Link
 > A partir da página de criação de link é possível criar novos links.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/criarlink.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/criarlink.png" alt="create" width="700">
 
 ### Página de Edição de Link
 > A partir da página de edição de link é possível editar links que já foram criados anteriormente.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/editarlink.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/editarlink.png" alt="edit" width="700">
 
 ### Página de Exclusão de Link
 > A partir da página de exclusão de link é possível deletar links que já foram criados anteriormente.
-<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/deletarlink.png" alt="home" width="700">
+<img src="https://github.com/valsoares/MaratonaJS-1/blob/master/prints/deletarlink.png" alt="delete" width="700">
 
 ## :scroll: Créditos
 
@@ -54,3 +54,6 @@ onde ele ensinou como criar no backend uma API com NodeJS e no frontend uma apli
 
 3. Imagens das logos da página dos links:
 > <a href="https://clearbit.com/logo">Clearbit - Free logo API</a>
+
+4. Favicon:
+> <a href="https://favicon.io/favicon-generator/">Favicon Generator </a>
